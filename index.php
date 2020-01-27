@@ -22,14 +22,28 @@ $listings=[
 		'description'=>'Brand new Ford Mustang 2019.  Please contact a representative at Ford motors Florence 859-111-1111 for more information.'
 	],
 		[
-		'name'=>'Ford Mustang 2019',
+		'name'=>'Item 4',
 		'address'=>'address 3',
 		'picture'=>'img/mustang.jpg',
 		'price'=>29999,
 		'description'=>'Brand new Ford Mustang 2019.  Please contact a representative at Ford motors Florence 859-111-1111 for more information.'
 	],
 		[
-		'name'=>'Ford Mustang 2019',
+		'name'=>'Item 5',
+		'address'=>'address 3',
+		'picture'=>'img/mustang.jpg',
+		'price'=>29999,
+		'description'=>'Brand new Ford Mustang 2019.  Please contact a representative at Ford motors Florence 859-111-1111 for more information.'
+	],
+		[
+		'name'=>'Item 6',
+		'address'=>'address 3',
+		'picture'=>'img/mustang.jpg',
+		'price'=>29999,
+		'description'=>'Brand new Ford Mustang 2019.  Please contact a representative at Ford motors Florence 859-111-1111 for more information.'
+	],
+		[
+		'name'=>'Item 7',
 		'address'=>'address 3',
 		'picture'=>'img/mustang.jpg',
 		'price'=>29999,
@@ -65,10 +79,10 @@ $listings=[
 		$numRows = ceil(count($listings)/3);
 		echo '<ul class="list-group list-group-flush"';
 		echo '<div class="container">';
+		$one = 0;
+		$two = 1;
+		$three = 2;
 		for($i=0;$i<$numRows;$i++){
-			$one = $i;
-			$two = $i+1;
-			$three = $i+2;
 			echo '<div class="row">';
 			if ($remaining >= 3) {
 				echo '<div class="col-4 border border-dark bg-secondary text-white">
@@ -95,6 +109,9 @@ $listings=[
 						<p><a href="detail.php?id='.$three.'">Click to see details</a></p>
 					  </div>
 					</div>';
+				$one = $one + 3;
+				$two = $one + 1;
+				$three = $one + 2;
 				$remaining = $remaining - 3;
 			} else if($remaining == 2) {
 					echo '<div class="col-4 border border-dark bg-secondary text-white">

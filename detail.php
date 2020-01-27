@@ -26,14 +26,28 @@ $listings=[
 		'description'=>'Brand new Ford Mustang 2019.  Please contact a representative at Ford motors Florence 859-111-1111 for more information.'
 	],
 		[
-		'name'=>'Ford Mustang 2019',
+		'name'=>'Item 4',
 		'address'=>'address 3',
 		'picture'=>'img/mustang.jpg',
 		'price'=>29999,
 		'description'=>'Brand new Ford Mustang 2019.  Please contact a representative at Ford motors Florence 859-111-1111 for more information.'
 	],
 		[
-		'name'=>'Ford Mustang 2019',
+		'name'=>'Item 5',
+		'address'=>'address 3',
+		'picture'=>'img/mustang.jpg',
+		'price'=>29999,
+		'description'=>'Brand new Ford Mustang 2019.  Please contact a representative at Ford motors Florence 859-111-1111 for more information.'
+	],
+		[
+		'name'=>'Item 6',
+		'address'=>'address 3',
+		'picture'=>'img/mustang.jpg',
+		'price'=>29999,
+		'description'=>'Brand new Ford Mustang 2019.  Please contact a representative at Ford motors Florence 859-111-1111 for more information.'
+	],
+		[
+		'name'=>'Item 7',
 		'address'=>'address 3',
 		'picture'=>'img/mustang.jpg',
 		'price'=>29999,
